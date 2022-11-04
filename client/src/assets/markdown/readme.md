@@ -37,7 +37,7 @@
     <rui.wang.624@gmail.com>
 
 7. Embeded image: html <br>
-    <img src="../jpeg/tiger.jpg" width="50" />
+    <img src="/assets/jpeg/tiger.jpg" width="50" />
 8. Horizontal rule: --- (triple -)
 ---
 
