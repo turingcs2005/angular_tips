@@ -30,6 +30,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { MatTreeModule } from '@angular/material/tree';
+import { PortalModule } from '@angular/cdk/portal';
+import { OverlayModule } from '@angular/cdk/overlay';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -68,6 +70,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatGridListModule,
     MatSlideToggleModule,
     MatTreeModule,
+    PortalModule,
+    OverlayModule,
 
     FormsModule,
     ReactiveFormsModule,

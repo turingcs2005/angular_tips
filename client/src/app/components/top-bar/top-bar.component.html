@@ -4,7 +4,7 @@
       <mat-icon [matMenuTriggerFor]="appMenu" class="mat-elevation-z2">menu</mat-icon>
     </div>
   
-    <div>Your App Title</div>
+    <div>Angular Tips</div>
   
     <div>
       <mat-icon [routerLink]="['/help']" class="mat-elevation-z2">help</mat-icon> &nbsp;
@@ -15,4 +15,6 @@
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [routerLink]="['/']"><mat-icon>home</mat-icon ></button>
   <button mat-menu-item [routerLink]="['/md-demo']">markdown</button>
+  <button mat-menu-item [routerLink]="['/portal-demo']">portal</button>
+  <button mat-menu-item [routerLink]="['/overlay-demo']">overlay</button>
 </mat-menu>
