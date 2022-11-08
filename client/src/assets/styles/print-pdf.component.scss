@@ -1,0 +1,18 @@
+@media screen, print {
+    @page {
+        width: 8.5in;
+        height: 11in;
+    }
+    
+    .title {
+        font-size: large;
+        color: navy;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .content {
+        font-size: medium;
+        color: purple;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
